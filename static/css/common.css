@@ -1,0 +1,142 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     width: 100%;
+     height: 100%;
+     background: #fff;
+     font-size: 12px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ div {
+     display: block;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: #333;
+ }
+ 
+ a:hover {
+     cursor: pointer;
+ }
+ 
+ em,
+ i {
+     font-style: normal;
+     text-align: left;
+     font-size: inherit;
+ }
+ 
+ .fl {
+     float: left;
+ }
+ 
+ .fr {
+     float: right;
+ }
+ 
+ .sp1 {
+     background-image: url("../images/1.png");
+     background-repeat: no-repeat;
+ }
+ 
+ .sp2 {
+     background-image: url("../images/2.png");
+     background-repeat: no-repeat;
+ }
+ 
+ .sp3 {
+     background-image: url("../images/3.png");
+     background-repeat: no-repeat;
+ }
+ 
+ .sp4 {
+     background-image: url("../images/4.png");
+     background-repeat: no-repeat;
+ }
+ 
+ .sp5 {
+     background-image: url("../images/5.png");
+     background-repeat: no-repeat;
+ }
+ 
+ .sp6 {
+     background-image: url("../images/6.png");
+     background-repeat: no-repeat;
+ }
+ 
+ .sp7 {
+     background-image: url("../images/7.png");
+     background-repeat: no-repeat;
+ }
+ 
+ .sp8 {
+     background-image: url("../images/8.png");
+     background-repeat: no-repeat;
+ }
+ 
+ @charset "UTF-8";
+ /*-- 重置 --*/
+ 
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ a,
+ a:link,
+ a:visited,
+ a:hover,
+ a:active {
+     text-decoration: none;
+     outline: none;
+ }
+ 
+ a img {
+     display: block;
+ }
+ /*-- 公共 --*/
+ 
+ body {
+     font: 12px/1.5 Arial, Helvetica, sans-serif;
+ }
+ 
+ .left {
+     float: left;
+ }
+ 
+ .right {
+     float: right;
+ }
+ 
+ .clear:after {
+     display: table;
+     content: '';
+     clear: both;
+ }
+ 
+ .container {
+     width: 980px;
+     margin: 0 auto;
+ }
+ 
+ .btn {
+     display: block;
+     text-indent: -9999em;
+ }
+ 
+ .btn {
+     background-image: url("../images/player_bg.png");
+     background-repeat: no-repeat;
+ }
+ 
+ .btn-grop,
+ .dashboard-grop,
+ .control-grop {
+     float: left;
+     height: 100%;
+ }

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>网易云音乐-Music页面实现</title>
+    <link rel="shortcut icon" href="static/images/music.ico">
+    <link rel="stylesheet" type="text/css" href="static/css/common.css">
+    <link rel="stylesheet" type="text/css" href="static/css/main.css">
+</head>
+
+<body>
+    <!-- 顶部主导航栏 -->
+    <div id="wy-header">
+        <!--头部导航栏部分-->
+        <div class="wy-topbar">
+            <div class="wy-wrapper">
+                <div class="wy-logo sp1"></div>
+                <ul class="wy-nav">
+                    <li>
+                        <a href="#"><em>发现音乐</em></a>
+                    </li>
+                    <li>
+                        <a href="#"><em>我的音乐</em></a>
+                    </li>
+                    <li>
+                        <a href="#"><em>朋友</em></a>
+                    </li>
+                    <li>
+                        <a href="#"><em>商城</em></a>
+                    </li>
+                    <li>
+                        <a href="#"><em>音乐人</em></a>
+                    </li>
+                    <li>
+                        <a href="#"><em>下载客户端</em>
+                                <sup class="hot sp1">&nbsp;</sup></a>
+                    </li>
+                </ul>
+                <div class="wy-search fr sp1">
+                    <span>
+                    <input type="text" placeholder="单曲/歌手/专辑/歌单/MV/用户">
+                  </span>
+                </div>
+                <a href="#" class="wy-mesg sp1"></a>
+                <div class="wy-login fr">
+                    <img src="static/images/login.jpg" alt="">
+                    <i class="sp1 fr"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 子导航栏 -->
+    <div class="wy-subnav">
+        <div class="sub-wrap">
+            <ul class="sub-nav">
+                <li>
+                    <a href="#"><em>推荐</em></a>
+                </li>
+                <li>
+                    <a href="#"><em>排行榜</em></a>
+                </li>
+                <li>
+                    <a href="#"><em>歌单</em></a>
+                </li>
+                <li>
+                    <a href="#"><em>主播电台</em></a>
+                </li>
+                <li>
+                    <a href="#"><em>歌手</em></a>
+                </li>
+                <li>
+                    <a href="#"><em>新碟上架</em></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 中间内容模块 -->
+    <div id="wy-content">
+        <!-- 中间包裹类 -->
+        <div class="main-wrapper">
+            <!-- 中间内容左边栏 -->
+            <div class="main-left fl">
+                <div class="left-wrap">
+                    <div class="cd-wrap">
+                        <div class="circle sp4">
+                            <img src="static/images/music.jpg">
+                            <span class=""></span>
+                        </div>
+                        <div class="dc">
+                            <i class="u-icn-95 sp5"></i>
+                            <a href="#">生成外链播放器</a>
+                        </div>
+                    </div>
+                    <div class="cnt-wrap fr">
+                        <div class="cnt-header ">
+                            <i class="lab sp5 u-icn-37 fl"></i>
+                            <div class="tit fl">
+                                <em>一首写给她的歌 (电音版)</em></div>
+                        </div>
+                        <div class="songer">
+                            <p>歌手：</p>
+                            <a href="#" class="fl">网易云音乐</a>
+                        </div>
+                        <div class="songer">
+                            <p>所属专辑：</p>
+                            <a href="#" class="nt fl">一首写个她的歌</a>
+                        </div>
+                        <div class="cnt-info">
+                            <img src="static/images/button.png" alt="">
+                        </div>
+                        <div class="song-content">
+                            作曲 : 徐赫力
+                            <br>编曲：徐赫力
+                            <br>演唱：高荧
+                            <br>我不是很漂亮
+                            <br>我知道你也一样
+                            <br>我没考过第一名
+                            <br>我知道你也一样
+                            <br>我又重了十斤
+                            <br>我知道你也一样
+                            <br>我今天又没能早起
+                            <br>我知道你也一样
+                            <br>你以为我一贫如洗、默默无闻、长相平庸、个子瘦小，
+                            <br>我就没有灵魂，没有心吗？
+                            <br>
+                        </div>
+                        <div id="flag_more" class="flag_more">你想错了
+                            <br>我的灵魂跟你一样！（简爱）
+                            <br>你可能认为我很渺小
+                            <br>但我的内心有一个宇宙（小野洋子）
+                            <br>人生短短数十载
+                            <br>最要紧的是满足自己
+                            <br>不是讨好他人（亦舒）
+                            <br>我大好的一个人
+                            <br>凭什么跑到别人的生命里去当插曲（亦舒）
+                            <br>欢迎来到现实世界
+                            <br>它糟糕透顶
+                            <br>但你会喜欢的（莫妮卡）
+                            <br>假如我望见了那个人的背影
+                            <br>我会披荆斩棘地追去
+                            <br>脚扭伤了，跳着也要追
+                            <br>天下着最大的雨，扔下伞也要追（赤名莉香）
+                            <br>你可能认为我很渺小
+                            <br>但我内心有一个宇宙（小野洋子）
+                            <br>明天又是新的一天（郝思嘉）
+                            <br>不断奔跑才是人生（银魂）
+                            <br>你可能认为我很渺小
+                            <br>但我内心有一个宇宙（小野洋子）
+                            <br>明天又是新的一天（郝思嘉）
+                            <br>不断奔跑才是人生（银魂）
+                            <br>你可能认为我很渺小
+                            <br>但我内心有一个宇宙（小野洋子）
+                            <br>明天又是新的一天（郝思嘉）
+                            <br>不断奔跑才是人生（银魂）
+                            <br>你可能认为我很渺小
+                            <br>但我内心有一个宇宙（小野洋子）
+                            <br>明天又是新的一天（郝思嘉）
+                            <br>不断奔跑才是人生（银魂）
+                            <br>————————————————————————————————————
+                            <br>歌词前半部分改编自燕公子，
+                            <br>后半部分改编自以下这几位可爱的著名女性 ，荣耀属于她们：
+                            <br>简爱
+                            <br>小野洋子
+                            <br>郝思嘉
+                            <br>亦舒
+                            <br>赤名莉香
+                            <br>莫妮卡
+                            <br>银魂
+                            <br>
+                        </div>
+                        <div class="flag-crl">
+                            <a id="flag_ctrl" href="#" class="s-fc7">展开<i class="sp5 u-icn u-icn-69"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="lrc-user">
+                    <p>
+                        <a class="f-tdu s-fc4" href="#">报错</a>
+                    </p>
+                    <p class="s-fc3">贡献歌词：
+                        <a class="f-tdu s-fc7" href="#">莎士比亚书店</a>
+                    </p>
+                </div>
+            </div>
+            <div class="comment">
+                <div class="u-title u-title-1">
+                    <h3 class="fl"><span class="f-ff2">评论</span></h3>
+                    <span class="sub fl">共<span class="j-flag">2196</span>条评论</span>
+                </div>
+                <div class="input">
+                    <div class="head">
+                        <img src="static/images/login1.jpg" alt="">
+                        <div class="inp fl">
+                            <textarea class="u-txt area" placeholder="评论" id=""></textarea>
+                        </div>
+                        <div class="btns fr">
+                            <img src="static/images/btns.png">
+                            <a href="#" class="u-btn-1 sp7" id="#">评论</a><span>140</span>
+                        </div>
+                        <div class="corr u-arr">
+                            <!-- <em class="arrline">◆</em> -->
+                            <!-- <span class="arrclr">◆</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="comt-flag">
+                    <h3 class="u-hd4">精彩评论</h3>
+                    <div class="itm">
+                        <div class="head fl">
+                            <a href="#"><img src="static/images/comment.jpg"></a>
+                        </div>
+                        <div class="cntwrap">
+                            <div class="cwp">
+                                <div class="cnt f-brk">
+                                    <a href="#" class="s-fc7">金刀惜墨</a>：一个不会自己出歌的聊天软件不是好游戏公司
+                                    <img src="static/images/ku.png"></div>
+                            </div>
+                            <div class="rp">
+                                <div class="time s-fc4 fl">3月4日 03:28</div>
+                                <a href="#">
+                                    <i class="sp8 u-icn2 u-icn2-12"></i> (3918)</a>
+                                <span class="sep">|</span>
+                                <a href="#">回复</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="comt-flag">
+                    <h3></h3>
+                    <div class="itm">
+                        <div class="head fl">
+                            <a href="#"><img src="static/images/comment.jpg"></a>
+                        </div>
+                        <div class="cntwrap">
+                            <div class="cwp">
+                                <div class="cnt f-brk">
+                                    <a href="#" class="s-fc7">金刀惜墨</a> ：一个不会自己出歌的聊天软件不是好游戏公司
+                                    <img src="static/images/ku.png"></div>
+                            </div>
+                            <div class="rp">
+                                <div class="time s-fc4 fl">3月4日 03:28</div>
+                                <a href="#">
+                                    <i class="sp8 u-icn2 u-icn2-12"></i> (3918)</a>
+                                <span class="sep">|</span>
+                                <a href="#">回复</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="comt-flag">
+                    <h3></h3>
+                    <div class="itm">
+                        <div class="head fl">
+                            <a href="#"><img src="static/images/comment.jpg"></a>
+                        </div>
+                        <div class="cntwrap">
+                            <div class="cwp">
+                                <div class="cnt f-brk">
+                                    <a href="#" class="s-fc7">金刀惜墨</a>：我有一个基友，网易云的超级粉
+                                    <img src="static/images/ku.png"></div>
+                            </div>
+                            <div class="rp">
+                                <div class="time s-fc4 fl">3月4日 03:28</div>
+                                <a href="#">
+                                    <i class="sp8 u-icn2 u-icn2-12"></i> (3918)</a>
+                                <span class="sep">|</span>
+                                <a href="#">回复</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="comt-flag">
+                    <h3></h3>
+                    <div class="itm">
+                        <div class="head fl">
+                            <a href="#"><img src="static/images/comment.jpg"></a>
+                        </div>
+                        <div class="cntwrap">
+                            <div class="cwp">
+                                <div class="cnt f-brk">
+                                    <a href="#" class="s-fc7">金刀惜墨</a>： 一个不会自己出歌的聊天软件不是好游戏公司
+                                    <img src="static/images/ku.png"></div>
+                            </div>
+                            <div class="rp">
+                                <div class="time s-fc4 fl">3月4日 03:28</div>
+                                <a href="#">
+                                    <i class="sp8 u-icn2 u-icn2-12"></i> (3918)</a>
+                                <span class="sep">|</span>
+                                <a href="#">回复</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="comt-flag">
+                    <h3></h3>
+                    <div class="itm">
+                        <div class="head fl">
+                            <a href="#"><img src="static/images/comment.jpg"></a>
+                        </div>
+                        <div class="cntwrap">
+                            <div class="cwp">
+                                <div class="cnt f-brk">
+                                    <a href="#" class="s-fc7">金刀惜墨</a> ：一个不会自己出歌的聊天软件不是好游戏公司
+                                    <img src="static/images/ku.png"></div>
+                            </div>
+                            <div class="rp">
+                                <div class="time s-fc4 fl">3月4日 03:28</div>
+                                <a href="#">
+                                    <i class="sp8 u-icn2 u-icn2-12"></i> (3918)</a>
+                                <span class="sep">|</span>
+                                <a href="#">回复</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="comt-flag">
+                    <h3></h3>
+                    <div class="itm">
+                        <div class="head fl">
+                            <a href="#"><img src="static/images/comment.jpg"></a>
+                        </div>
+                        <div class="cntwrap">
+                            <div class="cwp">
+                                <div class="cnt f-brk">
+                                    <a href="#" class="s-fc7">金刀惜墨</a> ：一个不会自己出歌的聊天软件不是好游戏公司
+                                    <img src="static/images/ku.png"></div>
+                            </div>
+                            <div class="rp">
+                                <div class="time s-fc4 fl">3月4日 03:28</div>
+                                <a href="#">
+                                    <i class="sp8 u-icn2 u-icn2-12"></i> (3918)</a>
+                                <span class="sep">|</span>
+                                <a href="#">回复</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="comt-flag">
+                    <h3></h3>
+                    <div class="itm">
+                        <div class="head fl">
+                            <a href="#"><img src="static/images/comment.jpg"></a>
+                        </div>
+                        <div class="cntwrap">
+                            <div class="cwp">
+                                <div class="cnt f-brk">
+                                    <a href="#" class="s-fc7">金刀惜墨</a> ：一个不会自己出歌的聊天软件不是好游戏公司
+                                    <img src="static/images/ku.png"></div>
+                            </div>
+                            <div class="rp">
+                                <div class="time s-fc4 fl">3月4日 03:28</div>
+                                <a href="#">
+                                    <i class="sp8 u-icn2 u-icn2-12"></i> (3918)</a>
+                                <span class="sep">|</span>
+                                <a href="#">回复</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="comt-flag">
+                    <h3></h3>
+                    <div class="itm">
+                        <div class="head fl">
+                            <a href="#"><img src="static/images/comment.jpg"></a>
+                        </div>
+                        <div class="cntwrap">
+                            <div class="cwp">
+                                <div class="cnt f-brk">
+                                    <a href="#" class="s-fc7">金刀惜墨</a> ：一个不会自己出歌的聊天软件不是好游戏公司
+                                    <img src="static/images/ku.png"></div>
+                            </div>
+                            <div class="rp">
+                                <div class="time s-fc4 fl">3月4日 03:28</div>
+                                <a href="#">
+                                    <i class="sp8 u-icn2 u-icn2-12"></i> (3918)</a>
+                                <span class="sep">|</span>
+                                <a href="#">回复</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fot-page">
+                    <img src="static/images/page.png">
+                </div>
+            </div>
+            <!-- 中间内容右边栏 -->
+            <div class="main-right fr">
+                <div class="right-wrapper">
+                    <div class="right-ad">
+                        <img src="static/images/right-ad.jpg" alt=""></div>
+                    <div class="right-multi">
+                        <h3 class="u-hd3"><span class="f-fl">网易云音乐多端下载</span></h3>
+                        <ul class="bg sp3">
+                            <li>
+                                <a href="#" class="ios sp3" target="_self"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="pc sp3" target="_self"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="aos sp3" target="_self"></a>
+                            </li>
+                        </ul>
+                        <p class="s-fc4">同步歌单，随时畅听320k好音乐</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部版权模块 -->
+    <div id="wy-footer">
+        <div class="footer-middle">
+            <div class="ft-wrapper">
+                <a class="logo sp3" href="#" target="_self">
+                    <span class="s-fc3">独立音乐人招募计划</span>
+                    <br>
+                    <span class="s-fc4">加入我们 即将与超过亿万乐迷互动</span>
+                </a>
+                <a class="logo-1 sp3" href="#" target="_self">
+                    <span class="s-fc3">音乐专栏招募计划</span>
+                    <br>
+                    <span class="s-fc4">加入我们 与同道中人交流心得</span>
+                </a>
+                <div class="copy">
+                    <p>
+                        <a href="#" target="_blank">关于网易</a><span>-</span>
+                        <a href="#" target="_blank">客户服务</a><span>-</span>
+                        <a href="#" target="_blank">服务条款</a><span>-</span>
+                        <a href="#" target="_blank">网站导航</a>&nbsp;网易公司版权所有©1997-2017
+                    </p>
+                    <p class="f-fl">杭州乐读科技有限公司运营：
+                        <a href="#" target="_self">浙网文[2015]0415-135号</a>
+                        <a id="g_feedback" href="#" class="fback f-fr s-fc4" onclick="#">
+                            <i class="u-icn u-icn-3"></i>意见反馈</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="ctrl"></div>
+    </div>
+    <a title="回到顶部" class="m-back sp3" href="#" id="g_backtop" hidefocus="true" style="">回到顶部</a>
+    <!-- 底部播放控制台 -->
+    <div class="player-box">
+        <div class="container clear">
+            <!-- 播放暂停按钮组 begin -->
+            <div class="btn-grop">
+                <a href="javascript:;" class="btn prev-btn" title="上一首（ctrl+←）" id="j-prev-btn">上一首</a>
+                <a href="javascript:;" class="btn play-btn" title="播放/暂停（p）" id="j-play-pause-btn">播放/暂停</a>
+                <a href="javascript:;" class="btn next-btn" title="下一首（ctrl+→）" id="j-next-btn">上一首</a>
+            </div>
+            <!-- 播放暂停按钮组 end -->
+            <!-- 中间的播放进度 begin -->
+            <div class="dashboard-grop">
+                <div class="thumbnail-box left" id="j-thumbnail-box"></div>
+                <div class="status-box left">
+                    <p class="top-item clear" id="j-song-box"></p>
+                    <div class="clear">
+                        <div class="schedule-box left">
+                            <div class="current" id="j-current">
+                                <a href="javascript:;" class="btn btn-pointer"></a>
+                            </div>
+                        </div>
+                        <p class="time left">
+                            <span class="now" id="j-now">00:00</span> / <span class="duration" id="j-duration">03:00</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- 中间的播放进度 end -->
+            <!-- 其他按钮 begin -->
+            <div class="control-grop">
+                <a href="javascript:;" title="添加收藏夹" class="btn btn-favorites"></a>
+                <a href="javascript:;" title="分享" class="btn btn-share"></a>
+                <a href="javascript:;" class="btn btn-volume" id="j-volume">
+                    <span><i><b><s></s></b></i></span>
+                </a>
+                <a href="javascript:;" title="单曲循环" class="btn btn-model btn-model-order"></a>
+                <a href="javascript:;" title="播放列表 " class="btn btn-list">20</a>
+            </div>
+            <div class="updn ">
+                <div class="left sp2 ">
+                    <a href="#" class="btn "></a>
+                </div>
+            </div>
+            <!-- 其他按钮 end -->
+        </div>
+    </div>
+    <script src="static/js/jquery-1.11.1.min.js"></script>
+    <script src="static/js/index.js"></script>
+</body>
+
+</html>
